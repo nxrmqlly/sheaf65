@@ -1,0 +1,14 @@
+.venv/
+
+# KiCAD Auto Generated
+fp-info-cache
+*-backups/
+*.kicad_prl
+*.lck
+kbplacer.log
+
+# Python
+__pycache__/
+*.pyc
+
+kicad/3d
