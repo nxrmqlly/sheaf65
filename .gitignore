@@ -12,3 +12,24 @@ __pycache__/
 *.pyc
 
 kicad/3d
+
+# Files open in software
+~*
+
+
+# Junk files
+*.bak
+*.swp
+*~
+.DS_Store
+._*
+
+# Firmware files
+*.hex
+*.bin
+*.uf2
+
+# clangd
+compile_commands.json
+.clangd/
+.cache/
