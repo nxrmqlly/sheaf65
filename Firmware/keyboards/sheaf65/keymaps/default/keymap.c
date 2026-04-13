@@ -1,12 +1,13 @@
 // Copyright 2023 QMK
 // SPDX-License-Identifier: GPL-2.0-or-later
 
+#include "quantum.h"
 #include QMK_KEYBOARD_H
 
 enum layers {
     _BASE,
     _FN
-}
+};
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
@@ -52,20 +53,41 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     )
 };
 
+
+#if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
     [_BASE] = {ENCODER_CCW_CW(KC_VOLD, KC_VOLU),
                ENCODER_CCW_CW(KC_LEFT, KC_RGHT)},
     [_FN] = {ENCODER_CCW_CW(KC_BRID, KC_BRIU),
              ENCODER_CCW_CW(KC_MPRV, KC_MNXT)},
 };
+#endif
 
+#ifdef OLED_ENABLE
 bool oled_task_user(void) {
     oled_write_P(PSTR("sheaf65\n"), false);
     oled_write_P(PSTR("Layer: "), false);
+    
     switch (get_highest_layer(layer_state)) {
-        case _BASE: oled_write_P(PSTR("BASE\n"), false); break;
-        case _FN:   oled_write_P(PSTR("FUNC\n"), false); break;
-        default:    oled_write_P(PSTR("???\n"),  false); break;
+        
+        case _BASE:
+            oled_write_P(PSTR("BASE\n"), false);
+            break;
+
+        case _FN:
+            oled_write_P(PSTR("FUNC\n"), false);
+            break;
+        
+        default:
+            oled_write_P(PSTR("???\n"),  false);
+            break;
     }
+
+    led_t led_state = host_keyboard_led_state();
+    oled_write_P(led_state.num_lock ? PSTR("NUM ") : PSTR("    "), false);
+    oled_write_P(led_state.caps_lock ? PSTR("CAP ") : PSTR("    "), false);
+    oled_write_P(led_state.scroll_lock ? PSTR("SCR ") : PSTR("    "), false);
+
     return false;
 }
+#endif

@@ -7,8 +7,11 @@
 
 // OLED
 #define OLED_DISPLAY_128X32
+#define OLED_DRIVER_ENABLE
 
 #define ENCODER_RESOLUTION 4
+#define ENCODER_A_PINS {GP26, GP28}
+#define ENCODER_B_PINS {GP27, GP29}
 
 // Tapping time term || mod-tap keys (ms)
 #define TAPPING_TERM 200
