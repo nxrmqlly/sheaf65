@@ -1,4 +1,5 @@
 .venv/
+Hardware/PCB/gerbers/temp
 
 # KiCAD Auto Generated
 fp-info-cache
@@ -15,7 +16,6 @@ kicad/3d
 
 # Files open in software
 ~*
-
 
 # Junk files
 *.bak
