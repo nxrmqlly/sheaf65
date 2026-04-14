@@ -25,6 +25,11 @@ A simple, hackable 65% keyboard
 
 Built because I wanted something fun and unique... with knobs.
 
+## Why?
+I wanted a nice keyboard, and decided that making one for myself would be a fun challenge to pursue.
+I wanted a unique yet sleek looking keyboard that somewhat resembles the idea of a through hole keybaord kit minus the ugly visible diodes.
+Also, no such THT keyboard kit did kailh hotswap kits (I know the sockets are SMD but you get me) so there's that.
+
 ## Microcontroller / Devboard
 I used an Generic ProMicro RP2040 chip which is basically an Pi RP2040 in a somewhat a ProMicro layout, I found it on robu and I thought it was perfect so I went with it!. 
 
@@ -64,7 +69,7 @@ The inspiration for this kind of keyboard case (or the whole thing in general) c
 
 However, I didn't really like the exposed ugly diodes on the top, so I opted for a neat silkscreen instead which I designed in **Figma** (I know it isnt the correct tool for the job but whatever really)
 
-> (find the footprints [here](./kicad/footprints/art.pretty/))
+> (find the custom silkscreen footprints [here](./kicad/footprints/art.pretty/))
 
 
 ## Keyboard Parts
