@@ -1,18 +1,18 @@
-﻿Category,Item,Spec,Brand,Quantity,Cost (INR),Cost (USD),Link
-PCB,MCU Board,ProMicro RP2040,Generic,1,303,~ $3.25,https://robu.in/product/promicro-rp2040-blackboard-proxy/
-PCB,THT Diodes,1N4148 DO-35,Generic,100,96,~ $1.03,https://robu.in/product/1n4148-1w-zener-diode-pack-of-50/
-PCB,Rotary Encoder,EC11 10K,Generic,2,172,~ $1.84,https://www.amazon.in/dp/B0888RWNM1
-PCB,OLED Display,"SSD1306 I2C 0.91""",Generic,1,157,~ $1.68,https://robu.in/product/blue-oled-display-module
-PCB,Male Header,Male to Male Header 10u,Generic,1,6,~ $0.06,https://robu.in/product/2-54mm-1x40-pin-male-single-row-smt-header-strip-pack-of-5/
-PCB,Hotswap Socket,SMD Hotswap Socket,Kailh,70,532,~ $5.7,https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/kailh-hot-swap-socket/
-PCB,Fabrication,"2-layer, FR4, 1.6mm",JLCPCB,5,"3,276",~ $35.09,https://jlcpcb.com/
-Mounting,Phillips Screw,M2 x 4mm,OnlyScrews,1,3.8,~ $0.04,https://onlyscrews.in/products/m2-x-4mm-phillips-round-head-laptop-screw
-Mounting,Phillips Screw,M2 x 5mm,OnlyScrews,11,44,~ $0.47,https://onlyscrews.in/products/m2-x-4mm-phillips-round-head-laptop-screw-dia-2mm-length-5mm
-Mounting,Phillips Screw,M2 x 6mm,OnlyScrews,10,42,~ $0.45,https://onlyscrews.in/products/m2-x-6mm-phillips-round-head-laptop-screw
-Mounting,Spacer,Brass Spacer M2 x 10mm,OnlyScrews,10,56,~ $0.6,https://onlyscrews.in/products/m2-x-10mm-female-to-female-brass-with-nickel-plating-hex-threaded-standoff-spacer
-Mounting,Spacer,Brass Spacer M2 x 6mm,OnlyScrews,1,4,~ $0.04,https://onlyscrews.in/products/m2-x-6mm-female-to-female-brass-with-nickel-plating-hex-threaded-standoff-spacer
-Body,Body,3D printed,Self / Print Legion,1,0,~ $0,
-Keyboard Part,Switches,Y3 Linear Switches,Keygeek MZ Studio,70,"1,680",~ $17.99,https://keyora.store/products/keygeek-y3
-Keyboard Part,Keycaps,Cherry PBT Keycaps,CuriosityCaps,1,1800,~ $19.28,https://curiositycaps.in/products/grey-animals-party-big-font-cherry-pbt-keycaps
-Keyboard Part,Stabilizers,Plate Mount Stabilizer Set,Durock,1,380,~ $4.07,https://www.genesispc.in/products/durock-plate-mount-stabilizers-6-25u-4x2u-black
-TOTAL,,,,,8551.8,~ $91.87,
+Category,Item,Spec,Brand,Quantity,Cost (INR),Cost (USD),Link
+PCB,MCU Board,ProMicro RP2040,Generic,1,303,~$3.26,https://robu.in/product/promicro-rp2040-blackboard-proxy/
+PCB,THT Diodes,1N4148 DO-35,Generic,100,96,~$1.03,https://robu.in/product/1n4148-1w-zener-diode-pack-of-50/
+PCB,Rotary Encoder,EC11 10K,Generic,2,172,~$1.85,https://www.amazon.in/dp/B0888RWNM1
+PCB,OLED Display,"SSD1306 I2C 0.91""",Generic,1,157,~$1.69,https://robu.in/product/blue-oled-display-module
+PCB,Male Header,Male to Male Header 40u,Generic,1,6,~$0.06,https://robu.in/product/2-54mm-1x40-pin-male-single-row-smt-header-strip-pack-of-5/
+PCB,Hotswap Socket,SMD Hotswap Socket,Kailh,70,532,~$5.72,https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/kailh-hot-swap-socket/
+PCB,Fabrication,"2-layer, FR4, 1.6mm",Robu,5,"4,800",~$51.61,https://robu.in/product/online-pcb-manufacturing-service/
+Mounting,Phillips Screw,M2 x 4mm,OnlyScrews,2,7.6,~$0.08,https://onlyscrews.in/products/m2-x-4mm-phillips-round-head-laptop-screw
+Mounting,Phillips Screw,M2 x 5mm,OnlyScrews,12,48,~$0.52,https://onlyscrews.in/products/m2-x-4mm-phillips-round-head-laptop-screw-dia-2mm-length-5mm
+Mounting,Phillips Screw,M2 x 8mm,OnlyScrews,10,44,~$0.47,https://onlyscrews.in/products/m2-x-8mm-phillips-round-head-laptop-screw-1
+Mounting,Spacer,Brass Spacer M2 x 10mm,OnlyScrews,10,56,~$0.6,https://onlyscrews.in/products/m2-x-10mm-female-to-female-brass-with-nickel-plating-hex-threaded-standoff-spacer
+Mounting,Spacer,Brass Spacer M2 x 6mm,OnlyScrews,2,8,~$0.09,https://onlyscrews.in/products/m2-x-6mm-female-to-female-brass-with-nickel-plating-hex-threaded-standoff-spacer
+Body,Body,3D printed,Self / Print Legion,1,0,~$0,
+Keyboard Part,Switches,Y3 Linear Switches,Keygeek MZ Studio,70,"1,680",~$18.06,https://keyora.store/products/keygeek-y3
+Keyboard Part,Keycaps,Cherry PBT Keycaps,CuriosityCaps,1,1800,~$19.35,https://curiositycaps.in/products/grey-animals-party-big-font-cherry-pbt-keycaps
+Keyboard Part,Stabilizers,Plate Mount Stabilizer Set,Durock,1,380,~$4.09,https://www.genesispc.in/products/durock-plate-mount-stabilizers-6-25u-4x2u-black
+TOTAL,,,,,10089.6,~$108.49,

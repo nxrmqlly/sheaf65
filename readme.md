@@ -1,5 +1,8 @@
 # sheaf65 🌊
 
+![hackclub magazine page](assets/zine-page.png)
+
+
 A barebones, hackable, opinionated, ansi 65% layout  keyboard. The `Backspace` key and the `Grave` key swapped due to personal preferences.
 
 The Keyboard is designed to be very bare bones and it is basically 3 layers - The switchplate (top), The PCB (Middle),
@@ -63,7 +66,6 @@ However, I didn't really like the exposed ugly diodes on the top, so I opted for
 
 > (find the footprints [here](./kicad/footprints/art.pretty/))
 
-![pcb 3d backside](./assets/pcb_3d_back.png)
 
 ## Keyboard Parts
 
@@ -88,7 +90,7 @@ I plan to add VIA support soon :tm:
 I would create a markdown table but I'm lazy... full breakdown in
 [bom.csv here](./Hardware/bom/bom.csv)
 
-> Costs \~₹8000 (~$86)
+> Costs \~₹10,089 (~$108)
 
 Somehow this was fun to write!
 

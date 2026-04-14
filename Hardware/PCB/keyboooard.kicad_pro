@@ -490,7 +490,7 @@
       "plot": "gerbers/temp",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "keyboooard-new.step",
+      "step": "../CAD/PCB.step",
       "svg": "",
       "vrml": ""
     },
