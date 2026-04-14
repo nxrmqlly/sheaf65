@@ -39,7 +39,7 @@ The devboard is THT soldered and mounted onto the keyboard, in full display, sor
 
 ## The PCB
 
-The PCB was made in the best software ever (for legal reasons that's a joke) called **KiCad**, it was straightforward enough but I think a good software helps a ton! Also, I'm talking on SMD soldering by including Kailh hotswap sockets in this!
+The PCB was made in the best software ever (for legal reasons that's a joke) called **KiCad**, it was straightforward enough but I think a good software helps a ton! Also, I'm taking on SMD soldering by including Kailh hotswap sockets in this!
 
 Here are some screenshots:
 
