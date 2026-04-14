@@ -99,6 +99,16 @@ I would create a markdown table but I'm lazy... full breakdown in
 
 Somehow this was fun to write!
 
+## How to build it IRL
+
+1. Spend some $$$ to get the parts from the BOM
+2. Get your PCB fabricated and case 3D printed or machined
+3. Solder Hotswap sockets on the back of the PCB and the through hole diodes too.
+4. Solder header pins onto the MCU and that onto the PCB
+5. Secure the 6mm stanoffs onto the countersunk holes on the backplate and the 10mm standoffs on the rest of the holes
+6. Connect your switches to the plate and PCB
+7. Slide the PCB into the standoffs and secure the plate with screws.
+
 ## License
 The hardware (PCB, CAD Parts, Footprints) are licensed under `CERN Open Hardware Licence Version 2 - Strongly Reciprocal` 
 which means, you're all-right to copy my work and use it in yours but you must disclose your source code and project files to opensource platforms if you use my work. See [LICENSE](LICENSE)
