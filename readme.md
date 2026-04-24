@@ -56,7 +56,7 @@ The case is not really a case, its just two plates, one backplate and one switch
 
 | What               | Image                                        |
 |--------------------|----------------------------------------------|
-| CAD Assembly       |![keybaord CAD](assets/cad_assembly_ang1.png) |
+| CAD Assembly       |![keybaord CAD](assets/cad_assembly.png) |
 
 
 ## WTF is that design? (Design Credits + more)
@@ -66,6 +66,11 @@ The inspiration for this kind of keyboard case (or the whole thing in general) c
 - gingham65 (mounting)
 - nibble65 (embracing the exposed MCU design)
 - my wack brain (for two knobs)
+- also thanks to [somepin](https://www.printables.com/@somepin) for the [3d printed keyboard feet](https://www.printables.com/model/876658-mechanical-keyboard-cone-feet/files)
+- **Honorable mention:**
+>>>*samliu (#fallout-checkpoint): ...I also think this would look sick with under glow... maybe consider that*
+>>>
+>>>Yeah no, the keyboard was NoRGB by choice, just happened to make the overall schematic simpler, that's all. /shrug
 
 However, I didn't really like the exposed ugly diodes on the top, so I opted for a neat silkscreen instead which I designed in **Figma** (I know it isnt the correct tool for the job but whatever really)
 
@@ -80,6 +85,8 @@ Straightforward really, the switches, keycaps - they're all personal preference,
 2. **Keycaps**: PBT Clone Keycaps, nothing technical here, just Cherry Profile because I'm boring.
 3. **Stabilizers**: i may have cheaped out, but the **Durock Plate-Mount Stabilizers** will work out for me.
 4. **Hotswap**: The PCB is designed for Kailh-style hotswap sockets, so customizability is infinite!
+5. **The "Case"**: The Hardware/CAD directory has both KeyboardPlate and Backplate STEP files, with their _3DP suffixed variants which are meant for 3D printing as they are filleted.
+
 
 
 But really though, switches and keycaps are very personal and well, I can't really decide for you but all I can say is that I saw a thousand videos before settline on what I did.
@@ -95,14 +102,14 @@ I plan to add VIA support soon :tm:
 I would create a markdown table but I'm lazy... full breakdown in
 [bom.csv here](./Hardware/bom/bom.csv)
 
-> Costs \~₹10,089 (~$108)
+> Costs \~₹10289 (~$111)
 
-Somehow this was fun to write!
+Somehow the BOM was fun to write!
 
 ## How to build it IRL
 
 1. Spend some $$$ to get the parts from the BOM
-2. Get your PCB fabricated and case 3D printed or machined
+2. Get your PCB fabricated and case 3D printed or machined (if 3D printing use the _3DP suffixed CAD files)
 3. Solder Hotswap sockets on the back of the PCB and the through hole diodes too.
 4. Solder header pins onto the MCU and that onto the PCB
 5. Secure the 6mm stanoffs onto the countersunk holes on the backplate and the 10mm standoffs on the rest of the holes
