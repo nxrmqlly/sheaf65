@@ -17,7 +17,7 @@ I also took the liberty to add two knobs and an OLED display to the keyboard bec
 
 A simple, hackable 65% keyboard
 1. RP2040-powered
-2. Fully Hotswap (Kailh)
+2. Fully Hotswap (TTC Pokayoke V2)
 3. 0.91" OLED Screen
 4. Dual Rotary Encoders (Knobs)
 5. QMK firmware (VIA soon)
@@ -28,7 +28,7 @@ Built because I wanted something fun and unique... with knobs.
 ## Why?
 I wanted a nice keyboard, and decided that making one for myself would be a fun challenge to pursue.
 I wanted a unique yet sleek looking keyboard that somewhat resembles the idea of a through hole keybaord kit minus the ugly visible diodes.
-Also, no such THT keyboard kit did kailh hotswap kits (I know the sockets are SMD but you get me) so there's that.
+Also, no such THT keyboard kit did hotswap sockets (I know the sockets are SMD but you get me) so there's that.
 
 ## Microcontroller / Devboard
 I used an Generic ProMicro RP2040 chip which is basically an Pi RP2040 in a somewhat a ProMicro layout, I found it on robu and I thought it was perfect so I went with it!. 
@@ -39,7 +39,7 @@ The devboard is THT soldered and mounted onto the keyboard, in full display, sor
 
 ## The PCB
 
-The PCB was made in the best software ever (for legal reasons that's a joke) called **KiCad**, it was straightforward enough but I think a good software helps a ton! Also, I'm taking on SMD soldering by including Kailh hotswap sockets in this!
+The PCB was made in the best software ever (for legal reasons that's a joke) called **KiCad**, it was straightforward enough but I think a good software helps a ton! Also, I'm taking on SMD soldering by including TTC Pokayoke hotswap sockets in this!
 
 Here are some screenshots:
 
@@ -84,7 +84,7 @@ Straightforward really, the switches, keycaps - they're all personal preference,
 1. **Switches**: Nothing really beats the **Keygeek x MZ Y3 Linear Switches** for me, they're the perfect mix of thock (not as much as the Y2) and just enough creamy sound
 2. **Keycaps**: PBT Clone Keycaps, nothing technical here, just Cherry Profile because I'm boring.
 3. **Stabilizers**: i may have cheaped out, but the **Durock Plate-Mount Stabilizers** will work out for me.
-4. **Hotswap**: The PCB is designed for Kailh-style hotswap sockets, so customizability is infinite!
+4. **Hotswap**: The PCB is designed for TTC Pokayoke V2 hotswap sockets, so customizability is infinite!
 5. **The "Case"**: The Hardware/CAD directory has both KeyboardPlate and Backplate STEP files, with their _3DP suffixed variants which are meant for 3D printing as they are filleted.
 
 
@@ -102,7 +102,7 @@ I plan to add VIA support soon :tm:
 I would create a markdown table but I'm lazy... full breakdown in
 [bom.csv here](./Hardware/bom/bom.csv)
 
-> Costs \~₹10289 (~$111)
+> Costs \~₹10619 (~$114)
 
 Somehow the BOM was fun to write!
 

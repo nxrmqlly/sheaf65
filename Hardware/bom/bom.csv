@@ -4,7 +4,7 @@ PCB,THT Diodes,1N4148 DO-35,Generic,100,96,~$1.03,https://robu.in/product/1n4148
 PCB,Rotary Encoder,EC11 10K,Generic,2,172,~$1.85,https://www.amazon.in/dp/B0888RWNM1
 PCB,OLED Display,"SSD1306 I2C 0.91""",Generic,1,157,~$1.69,https://robu.in/product/blue-oled-display-module
 PCB,Male Header,Male to Male Header 10u,Generic,1,6,~$0.06,https://robu.in/product/2-54mm-1x40-pin-male-single-row-smt-header-strip-pack-of-5/
-PCB,Hotswap Socket,SMD Hotswap Socket,Kailh,70,532,~$5.72,https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/kailh-hot-swap-socket/
+PCB,Hotswap Socket,TTC Pokayoke V2 Socket,TTC,68,680,~$7.31,https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/kailh-hot-swap-socket/
 PCB,Fabrication,"2-layer, FR4, 1.6mm",JLCPCB,5,"4,800",~$51.61,https://jlcpcb.com/
 Mounting,Phillips Screw,M2 x 4mm,OnlyScrews,2,7.6,~$0.08,https://onlyscrews.in/products/m2-x-4mm-phillips-round-head-laptop-screw
 Mounting,Phillips Screw,M2 x 5mm,OnlyScrews,12,48,~$0.52,https://onlyscrews.in/products/m2-x-4mm-phillips-round-head-laptop-screw-dia-2mm-length-5mm
@@ -18,4 +18,5 @@ Body,"Plate, Backplate",3D printed,Self / Print Legion,1,0,~$0,
 Keyboard Part,Switches,Y3 Linear Switches,Keygeek MZ Studio,70,"1,680",~$18.06,https://keyora.store/products/keygeek-y3
 Keyboard Part,Keycaps,Cherry PBT Keycaps,CuriosityCaps,1,1800,~$19.35,https://curiositycaps.in/products/grey-animals-party-big-font-cherry-pbt-keycaps
 Keyboard Part,Stabilizers,Plate Mount Stabilizer Set,Durock,1,380,~$4.09,https://www.genesispc.in/products/durock-plate-mount-stabilizers-6-25u-4x2u-black
-TOTAL,,,,,10289.4,~$110.64,
+Shipping,,,,,182,~$1.96,
+TOTAL,,,,,10619.4,~$114.19,
