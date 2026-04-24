@@ -68,9 +68,8 @@ The inspiration for this kind of keyboard case (or the whole thing in general) c
 - my wack brain (for two knobs)
 - also thanks to [somepin](https://www.printables.com/@somepin) for the [3d printed keyboard feet](https://www.printables.com/model/876658-mechanical-keyboard-cone-feet/files)
 - **Honorable mention:**
->>>*samliu (#fallout-checkpoint): ...I also think this would look sick with under glow... maybe consider that*
->>>
->>>Yeah no, the keyboard was NoRGB by choice, just happened to make the overall schematic simpler, that's all. /shrug
+>*reviewer (#fallout-checkpoint): ...I also think this would look sick with under glow... maybe consider that*
+>Yeah no, the keyboard was NoRGB by choice, I like NoRGB setups
 
 However, I didn't really like the exposed ugly diodes on the top, so I opted for a neat silkscreen instead which I designed in **Figma** (I know it isnt the correct tool for the job but whatever really)
 
