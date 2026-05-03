@@ -101,7 +101,7 @@ I plan to add VIA support soon :tm:
 I would create a markdown table but I'm lazy... full breakdown in
 [bom.csv here](./Hardware/bom/bom.csv)
 
-> Costs \~₹10619 (~$114)
+> Costs \~₹10619 (~$124)
 
 Somehow the BOM was fun to write!
 
